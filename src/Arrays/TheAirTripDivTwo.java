@@ -1,5 +1,7 @@
 package Arrays;
 
+//http://community.topcoder.com/stat?c=problem_statement&pm=11031
+
 public class TheAirTripDivTwo {
 	public static void main(String[] args){
 		System.out.println(find(new int[] {1,2,3,4,5,6,7}, 10));
