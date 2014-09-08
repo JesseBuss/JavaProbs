@@ -14,7 +14,7 @@ public class AllUniqueChars {
 		HashMap<Character, Boolean> chars = new HashMap<Character, Boolean>();
 		int length = input.length();
 		
-		for (int i = 0; i < input.length(); i++){
+		for (int i = 0; i < length; i++){
 			if (chars.containsKey(input.charAt(i)))
 				return false; // We've already seen this character
 			else
